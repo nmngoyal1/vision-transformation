@@ -1,0 +1,16 @@
+# --- Core ML frameworks ---
+torch
+torchvision
+transformers
+
+# --- Image & PDF handling ---
+Pillow
+pdf2image
+
+# --- Data science & metrics ---
+scikit-learn
+pandas
+
+# --- Utilities ---
+rich
+tqdm

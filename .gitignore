@@ -1,0 +1,18 @@
+(
+echo .venv/
+echo __pycache__/
+echo *.pyc
+echo *.pyo
+echo *.pyd
+echo *.pt
+echo *.pth
+echo *.onnx
+echo *.ckpt
+echo *.zip
+echo *.rar
+echo *.7z
+echo *.tar
+echo *.tar.gz
+echo /data/
+echo /outputs/
+) > .gitignore
