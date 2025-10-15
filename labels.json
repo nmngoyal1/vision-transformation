@@ -1,0 +1,9 @@
+{
+  "classes": [
+    "certificate",
+    "claim_form",
+    "invoice",
+    "policy",
+    "renewal"
+  ]
+}

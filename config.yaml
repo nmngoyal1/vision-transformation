@@ -1,0 +1,18 @@
+vit:
+  model_name: "vit_base_patch16_224"
+  weights_path: "models/vit/best.pt"
+  image_size: 224
+  topk: 3
+
+paths:
+  labels_json: "app/labels.json"
+  run_root: "runs"
+  sorted_dir_name: "sorted_output"
+
+pg:
+  dsn_env: "PG_DSN"
+
+rag:
+  chunk_size: 800
+  chunk_overlap: 120
+  embed_model: "sentence-transformers/all-MiniLM-L6-v2"
